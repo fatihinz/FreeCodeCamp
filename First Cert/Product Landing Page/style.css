@@ -1,0 +1,43 @@
+#header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+#header h1 {
+  position: relative;
+  top: 0px;
+  left: 10px;
+    margin:0 auto;
+}
+
+.header {
+    background-color: grey;
+        width:1000px;
+        margin:0 auto;
+        height:42px;
+}
+.nav-link{
+    height:42px;
+    width:90px;
+    border-radius: 30%;
+}
+
+#nav-bar{
+    position:fixed;
+    top:0px;
+    width:100%;
+    
+}
+
+#description {
+    margin-top:100px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+      display: flex;
+  }
+}

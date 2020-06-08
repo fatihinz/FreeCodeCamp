@@ -1,0 +1,56 @@
+#header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    position:fixed ;
+}
+
+
+#header h1 {
+    position:sticky;
+    top: 0px;
+    margin-left:0;
+
+}
+
+.header {
+    background-color: grey;
+    width:1000px;
+    margin-left:0;
+    height:42px;
+    position:fixed;
+}
+.nav-link{
+    
+    
+    height:42px;
+    width:100px;
+    margin-left:0;
+    background-color: aliceblue;
+    display: block;
+    position:static;
+
+}
+
+#navbar{
+   
+    float: left;
+    width:100px;
+    display: block;
+    position:fixed;
+
+    
+}
+
+#description {
+    margin-top:100px;
+    margin-left:100px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+      display: flex;
+  }
+}
